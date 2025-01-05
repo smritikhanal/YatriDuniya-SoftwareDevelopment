@@ -1,0 +1,96 @@
+/* General reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+
+
+/* Login form styling */
+.login {
+  background-color:#f4e8da;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.login h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  color: #555;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 7px;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+button{
+  background-color:#DC8438 ;
+  color: white;
+  padding-left:125px ;
+  padding-right: 125px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.checkbox{
+  display: flex;
+  background-color:#f4e8da;
+ height: 38px;
+ margin-bottom:10px ;
+ margin-top: -10px;
+
+}
+
+p{
+  color: rgb(85, 85, 85);
+  font-family:  Arial, sans-serif;
+  margin-left:40px;
+ margin-top: 12px;
+ margin-bottom: 15x;
+ font-size: 15px;
+}
+
+.text{
+  
+
+}
+.text a{
+  text-decoration: none;
+  color :red;
+
+}
+
+
+
+
+

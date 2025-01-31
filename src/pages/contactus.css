@@ -1,0 +1,32 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: blac;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  /* Navigation Bar */
+  .nav {
+    display: flex; /* Use flex for alignment */
+    align-items: center;
+    justify-content: space-between; /* Space links evenly */
+    padding: 0 20px; /* Add padding to the sides */
+    width: 100%;
+    height: 70px;
+    position: fixed; /* Keep the navbar at the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align to the left */
+    background-color: #cbac91; /* Set background color */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  .container {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    color: black;
+    border-radius: 10px;
+    margin-left: 150px;
+    padding-left: 40px;
+  }

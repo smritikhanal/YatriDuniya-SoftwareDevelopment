@@ -1,18 +1,4 @@
 /* Global Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; /* Includes padding and borders in width/height */
-  }
-  
-  body {
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-color: aliceblue;
-    overflow-x: hidden; /* Prevent any overflow */
-  }
-  
-  /* Navigation Bar */
   .nav {
     position: sticky;
     top: 0;

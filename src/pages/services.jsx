@@ -6,13 +6,9 @@ import "./services.css";
 import Package from "./packages";
 import Guide from "./Guide";
 import Recommendation from "./recommendation";
-export default function Services() {
-  const [showServices, setShowServices] = useState(false);
-  const [selectedService, setSelectedService] = useState(null);
 
-  const togglePackages = () => {
-    setShowServices((prev) => !prev);
-  };
+export default function Services() {
+  const [selectedService, setSelectedService] = useState(null);
 
   return (
     <div>
@@ -21,36 +17,36 @@ export default function Services() {
         <img src="logo.png" alt="logo" className="logo" />
         <Link to="/">Home</Link>
         <Link to="/about">About Us</Link>
-        <button onClick={togglePackages} className="services-button">Services</button>
+        <button onClick={() => setSelectedService(null)} className="services-button">Services</button>
         <Link to="/contact">Contact Us</Link>
         <Link to="/login" className="login">Login</Link>
-        
       </div>
 
       {/* Services Dropdown */}
-      {showServices && !selectedService && (
+      {selectedService === null && (
         <div className="services-dropdown">
           <button className="service-btn1" onClick={() => setSelectedService("package")}>
             <FontAwesomeIcon icon={faBox} /> Package
           </button>
-          <button className="service-btn2"onClick={() => setSelectedService("guide")}>
+          <button className="service-btn2" onClick={() => setSelectedService("guide")}>
             <FontAwesomeIcon icon={faPlane} /> Guide
           </button>
-          <button className="service-btn3"onClick={() => setSelectedService("recomandation")}>
+          <button className="service-btn3" onClick={() => setSelectedService("recommendation")}>
             <FontAwesomeIcon icon={faHandshake} /> Recommendation
           </button>
         </div>
       )}
-      {/* Render Package Component When Selected */}
-      {selectedService === "package" && <Package onBack={() => setSelectedService(null)} />}
-      {selectedService === "guide" && <Guide onBack={() => setSelectedService(null)} />}
-      {selectedService === "recomendation" && <Recommendation onBack={() => setSelectedService(null)} />}
-    
-    
 
-
-
-     
+      {/* Render Components Based on Selection */}
+      {selectedService === "package" && (
+        <Package onBack={() => setSelectedService(null)} onSelectService={setSelectedService} />
+      )}
+      {selectedService === "guide" && (
+        <Guide onBack={() => setSelectedService(null)} onSelectService={setSelectedService} />
+      )}
+      {selectedService === "recommendation" && (
+        <Recommendation onBack={() => setSelectedService(null)} onSelectService={setSelectedService} />
+      )}
     </div>
   );
 }

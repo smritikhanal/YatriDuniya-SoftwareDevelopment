@@ -5,7 +5,7 @@
     box-sizing: border-box; /* Includes padding and borders in width/height */
   }
   
-  body {
+  .body{
     width: 100%;
     height: 100vh; /* Full viewport height */
     background-color: #f4dfcd;
@@ -28,27 +28,29 @@
     background: #cbac91;
   }
  .services-dropdown{
+  position: absolute;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
   height: 70px;
-    background-color: #f4dfcd;
+  background-color: #f4dfcd;
     
  /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
-  margin-bottom: 500px;
+  margin-top: -293px;
+ 
   
 
   }
   .service-btn1,.service-btn2,.service-btn3{
     
-    margin-right:20px ;
-    margin-left: 220px;
     background-color: whitesmoke;
     color: black;
     border: 1px solid white;
     border-radius: 20px;
     font-size: 20px;
     font-weight: bolder;
+    margin-left: 120px;
+    margin-right: 80px;
   }
   

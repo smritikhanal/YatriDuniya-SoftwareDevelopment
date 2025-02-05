@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
+import React, { useEffect } from 'react';
 
 export default function Home() {
+   // Set body height to 250vh when the component mounts
+      useEffect(() => {
+        document.body.style.height = '110vh';
+        // Reset body height when the component unmounts
+        return () => {
+          document.body.style.height = '100vh';
+        };
+      }, []);
+  
   return (
     <div>
       {/* Navigation Bar */}

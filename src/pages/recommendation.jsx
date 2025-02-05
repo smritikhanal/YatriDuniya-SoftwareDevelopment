@@ -4,13 +4,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'; // Import so
 
 export default function Recommendation({onBack}) {
     return (
-      <div className="container1">
-        <img src="mukitnath.png" alt="mukitnath" className="mukitnath"/>
-        
-       
-    
-        <button onClick={onBack}>Go Back</button>
-      </div>
+      <h1>hello world</h1>
     );
   }
   

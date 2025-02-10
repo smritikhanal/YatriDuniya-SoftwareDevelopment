@@ -1,0 +1,208 @@
+.mukitnathservices-dropdown{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: #f4dfcd;
+      
+   /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
+    margin-top: -105px;
+   
+    
+  
+    }
+    .mukitnathservice-btn1,.mukitnathservice-btn2,.mukitnathservice-btn3{
+      
+      background-color: whitesmoke;
+      color: black;
+      border: 1px solid white;
+      border-radius: 20px;
+      font-size: 20px;
+      font-weight: bolder;
+      margin-left: 120px;
+      margin-right: 80px;
+    }
+    .mukitnathtemplecontainer {
+      background-color:#faf3ed;
+      color: black;
+      width: 1000px;
+      height:350vh;
+      margin-left: 255px;
+      
+      display: flex;
+      border-radius: 30px;
+      align-items: center; /* Centers vertically */
+      flex-direction: column; /* Ensures content is stacked */
+  }
+  
+  .mukitnathtempleh1 {
+      font-size: 40px;
+      word-spacing: 20px;
+      letter-spacing: 2px;
+  }
+  .mukitnathtemple{
+    margin-top: 30px;
+    width: 900px;
+   }
+   .mukitnathtemplecontainer2{
+    background-color:#cbac91;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height: 200px;
+    border-radius: 10px;
+   }
+   .mukitnathtemple2{
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px 10px 10px 70px;
+    border-radius: 10px;
+  }
+  .mukitnathtemple2 h2, .mukitnathtemple3 h2{
+    color: black;
+    font-size:20px ;
+    
+  }
+  .mukitnathtemple2 p, .mukitnathtemple3 p, .mukitnathtemple4,.mukitnathtemple5,.mukitnathtemple6{
+    text-align: center;
+    font-size: 18px;
+  }
+  .mukitnathtemple3 {
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px 10px 10px 70px;
+    border-radius: 10px;
+  }
+  .mukitnathtemple4{
+    background: white;
+    width: 200px;
+    height: 150px;
+    margin-top: -155px;
+    margin-left: 320px;
+    border-radius: 10px;
+  }
+  .mukitnathtemple5{
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin-top: -150px;
+    margin-left: 560px;
+    border-radius: 10px;
+}
+.mukitnathtemple6{
+  background: white;
+  width: 200px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 560px;
+  border-radius: 10px;
+
+}
+.mukitnathtemple7{
+  background-color:white;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height: 250px;
+    border-radius: 10px;
+}
+.mukitnathtemple7 h1, .mukitnathtemple8 h1{
+  color: green;
+  text-align: left;
+  font-size: 24px;
+  word-spacing: 5px;
+      letter-spacing: 0.3px;
+      margin-top: 10px;
+}
+.mukitnathtemple7 p, .mukitnathtemple8 p,.mukitnathtemple9 p{
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: 20px;
+}
+.mukitnathtemple8{
+  background-color:white;
+  color: black;
+  width: 900px;
+  margin-top:50px;
+  height:420px;
+  border-radius: 10px;
+}
+.mukitnathtemple9{
+  background-color:white;
+  color: black;
+  width: 900px;
+  margin-top:50px;
+  height:300px;
+  border-radius: 10px;
+}
+.mukitnathtemple9 h1 ,h2{
+  color: green;
+  text-align: left;
+  font-size: 24px;
+  word-spacing: 5px;
+      letter-spacing: 0.3px;
+      margin-top: 10px;
+}
+.mukitnathtemple10{
+    background-color: #f4dfcd;
+
+  width: 900px;
+  margin-top:100px;
+  height:300px;
+  border-radius: 10px;
+
+}
+.mukitnathtemple11{
+  position: absolute;
+  background-color: white;
+  width: 800px;
+  height: 250px;
+  margin: 20px 50px 10px 50px;
+  border-radius: 30px;
+}
+.mukitnathtemple11 h1{
+color:black;
+
+font-size: 24px;
+word-spacing: 5px;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.mukitnathtemple11 p{
+  
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: 20px;
+}
+.mukitnathtemple11 h2{
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: -210px;
+      margin-left: 500px;
+}
+.p1{
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: -210px;
+      margin-left: 500px;
+
+}
+.button{
+  background:red;
+  margin-left: 550px;
+  margin-top: 15px;
+  border-radius: 20px;
+}

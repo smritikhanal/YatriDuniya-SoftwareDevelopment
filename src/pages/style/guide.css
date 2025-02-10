@@ -1,0 +1,111 @@
+.blog{
+    position: absolute;
+    background-color: #faf3ed;
+    margin-left: 50px;
+    height:250px;
+    width: 400px;
+    margin-top: -350px;
+    border-radius: 40px;
+}
+.blog h1, .blog2 h1,.blog4 h1 {
+    font-size: 20px;
+    color: #000;
+    margin-left: 20px;
+    
+}
+.blog h2,.blog2 h2, .blog4 h2{
+    font-size: 14px;
+    color: #000;
+    font-weight: lighter;
+    margin-left: 35px;
+    
+}
+.blogp, .blog2p,.blog4p{
+
+    font-size: 10px;
+    line-height: 1.6;
+    
+    color:black;
+    
+    width: 200px;
+    height: 230px;
+    margin-left: 180px;
+    margin-top:-210px;
+    
+   
+   
+}
+.services1{
+     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: #f4dfcd;
+      
+   /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
+    margin-top: -480px;
+}
+.servicesbtn1,.servicesbtn2,.servicesbtn3{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+  .people, .people1,.people2,.people3, .people4, .people5{
+    height: 140px;
+    margin: 20px 20px 5px 20px;
+  }
+  .blog2{
+    position: absolute;
+    background-color: #faf3ed;
+    margin-left: 550px;
+    margin-top: -350px;
+    height:250px;
+    width: 400px;
+    border-radius: 40px;
+  }
+  .blog3{
+    position: absolute;
+    background-color: #faf3ed;
+    margin-left: 1050px;
+    margin-top: -350px;
+    height:250px;
+    width: 400px;
+    border-radius: 40px;
+  }
+  .blog4{
+    position: absolute;
+    background-color: #faf3ed;
+  
+    margin-left: 50px;
+    
+    height:250px;
+    width: 400px;
+    border-radius: 40px;
+  } 
+  .blog5{
+    position: absolute;
+    background-color: #faf3ed;
+  
+    margin-left: 550px;
+    
+    height:250px;
+    width: 400px;
+    border-radius: 40px;
+  }
+  .blog6{
+    position: absolute;
+    background-color: #faf3ed;
+  
+    margin-left: 1050px;
+    
+    height:250px;
+    width: 400px;
+    border-radius: 40px;
+  }

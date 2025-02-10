@@ -1,0 +1,214 @@
+.raraservices-dropdown{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: #f4dfcd;
+      
+   /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
+    margin-top: -150px;
+    }
+    .raraservice-btn1,.raraservice-btn2,.raraservice-btn3{
+      
+        background-color: whitesmoke;
+        color: black;
+        border: 1px solid white;
+        border-radius: 20px;
+        font-size: 20px;
+        font-weight: bolder;
+        margin-left: 120px;
+        margin-right: 80px;
+      }
+      .raralakecontainer {
+        background-color:#faf3ed;
+        color: black;
+        width: 1000px;
+        height:490vh;
+        margin-left: 255px;
+        margin-top: -17px;
+        
+        display: flex;
+        border-radius: 30px;
+        align-items: center; /* Centers vertically */
+        flex-direction: column; /* Ensures content is stacked */
+    }
+    .raralakeh1 {
+        font-size: 40px;
+        word-spacing: 20px;
+        letter-spacing: 2px;
+    }
+    .raralakeimg{
+      margin-top: 30px;
+      width: 900px;
+     }
+     .raralakecontainer2{
+        background-color:#cbac91;
+        color: black;
+        width: 900px;
+        margin-top:50px;
+        height: 200px;
+        border-radius: 10px;
+       }
+       .raralake2{
+        background: white;
+        width: 200px;
+        height: 70px;
+        margin: 10px 10px 10px 70px;
+        border-radius: 10px;
+      }
+      .raralake2 h2, .raralake3 h2{
+        color: black;
+        font-size:20px ;
+        
+      }
+      .raralake2 p, .raralake3 p, .raralake4,.raralake5,.raralake6{
+        text-align: center;
+        font-size: 18px;
+      }
+      .raralake3 {
+        background: white;
+        width: 200px;
+        height: 70px;
+        margin: 10px 10px 10px 70px;
+        border-radius: 10px;
+      }
+      .raralake4{
+        background: white;
+        width: 200px;
+        height: 150px;
+        margin-top: -155px;
+        margin-left: 320px;
+        border-radius: 10px;
+      }
+      .raralake5{
+        background: white;
+        width: 200px;
+        height: 70px;
+        margin-top: -150px;
+        margin-left: 560px;
+        border-radius: 10px;
+    }
+    .raralake6{
+      background: white;
+      width: 200px;
+      height: 70px;
+      margin-top: 10px;
+      margin-left: 560px;
+      border-radius: 10px;
+    
+    }
+    .raralake7{
+        background-color:white;
+          color: black;
+          width: 900px;
+          margin-top:50px;
+          height: 250px;
+          border-radius: 10px;
+      }
+      .raralake7 h1, .raralake8 h1{
+         color: green;
+      text-align: center;
+      font-size: 24px;
+       word-spacing: 5px;
+      letter-spacing: 0.3px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+}
+.raralake7 p, .raralake8 p,.raralake9 p{
+     font-size: 18px;
+     word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: 20px;
+}
+.raralake8{
+    background-color:white;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height:230vh;
+    border-radius: 10px;
+  }
+  .raralake8 h2{
+    margin-top: 15px;
+    color:black;
+    margin-bottom: 15px;
+    word-spacing: 3px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+  }
+  .raralake9{
+    background-color:white;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height:300px;
+    border-radius: 10px;
+  }
+  .raralake9 h1 ,h2{
+    color: green;
+    text-align: left;
+    font-size: 24px;
+    word-spacing: 5px;
+        letter-spacing: 0.3px;
+        margin-top: 10px;
+  }
+  .raralake10{
+    background-color: #f4dfcd;
+
+  width: 900px;
+  margin-top:50px;
+  height:300px;
+  border-radius: 10px;
+
+}
+.raralake11{
+  position: absolute;
+  background-color: white;
+  width: 800px;
+  height: 250px;
+  margin: 20px 50px 10px 50px;
+  border-radius: 30px;
+}
+.raralaek11 h1{
+color:black;
+
+font-size: 24px;
+word-spacing: 5px;
+    letter-spacing: 0.3px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.raralaek11 p{
+  
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: 20px;
+}
+.rarlake11 h2{
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: -210px;
+      margin-left: 500px;
+}
+.p1{
+  font-size: 18px;
+  word-spacing: 3px;
+      letter-spacing: 0.3px;
+      line-height: 1.5;
+      margin-top: -210px;
+      margin-left: 500px;
+
+}
+.button{
+  background:red;
+  margin-left: 550px;
+  margin-top: 15px;
+  border-radius: 20px;
+}

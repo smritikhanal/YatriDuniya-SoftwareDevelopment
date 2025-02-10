@@ -2,9 +2,27 @@
     background:white;
     height: 170vh;
     width: 900px;
-    color: red;
+   
     margin-left: 300px;
     margin-top: -30px;
+}
+ .h1booking{
+    color: red;
+    font-weight:bolder ;
+    font-size: 30px;
+   
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+}
+.h1tour{
+    color: #000;
+    font-weight:bolder ;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
 }
 .bookingcontainer1{
     background: #faf3ed;
@@ -24,13 +42,22 @@
 .bookingcontainer2{
     background:white;
    width: 450px;
-   margin: -216px 10px 100px 350px;
+   height: 220px;
+   margin: -250px 10px 100px 350px;
    border-radius: 20px;
     
+}
+.bookingcontainer2 p{
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 3;
 }
 .bookingcontainer h2
 {
     color: red;
+    font-weight: bolder;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -38,7 +65,7 @@
     background:#faf3ed;
     border-radius: 20px;
     width: 850px;
-    height: 100vh;
+    height: 102vh;
     margin-left: 5px;
     margin-top: 20px;
 }
@@ -55,13 +82,13 @@
     
 
 }
-.name,.contact,.email,.date,.message,.people{
+.name,.contact,.email,.date,.people{
     margin-left: 20px;
     font-size: 25px;
     height: 40px;
     width: 90%;
-    background-color: black;
-    color:white;
+    background-color:white;
+    color:black;
     margin-bottom: 15px;
     border-radius: 10px;
 
@@ -80,4 +107,15 @@ background:orange;
     font-weight: bolder;
     text-align: center;
     margin-top: 30px;
+}
+.message{
+    margin-left: 20px;
+    font-size: 25px;
+    height: 100px;
+    width: 90%;
+    background-color:white;
+    color:black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
 }

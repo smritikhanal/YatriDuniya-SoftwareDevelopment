@@ -13,7 +13,7 @@
     margin-left: 20px;
     
 }
-.blog h2,.blog2 h2, .blog4 h2{
+.blog h2,.blog2 h2, .blog4 h2, .blog3 h2{
     font-size: 14px;
     color: #000;
     font-weight: lighter;
@@ -57,7 +57,7 @@
     margin-left: 120px;
     margin-right: 80px;
   }
-  .people, .people1,.people2,.people3, .people4, .people5{
+  .peopl, .people1,.people2,.people3, .people4, .people5{
     height: 140px;
     margin: 20px 20px 5px 20px;
   }

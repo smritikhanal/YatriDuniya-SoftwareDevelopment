@@ -1,4 +1,4 @@
-import "./guide.css";
+import "./style/guide.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBox,

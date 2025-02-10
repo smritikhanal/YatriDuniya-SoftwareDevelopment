@@ -1,17 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faClock,
-  faMountain,
-  faGaugeHigh,
-  faStar,
-  faBox,
-  faPlane,
-  faHandshake,
-} from '@fortawesome/free-solid-svg-icons';
-import './packages.css';
+import {faClock,faMountain,faGaugeHigh,faStar,faBox,faPlane,faHandshake,}
+from '@fortawesome/free-solid-svg-icons';
+import './style/packages.css';
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
-export default function Package({ onBack, onSelectService }) {
+export default function Package({ onBack,
+  onSelectService }) {
   // Set body height to 250vh when the component mounts
   useEffect(() => {
     document.body.style.height = '250vh';
@@ -22,7 +17,18 @@ export default function Package({ onBack, onSelectService }) {
   }, []);
 
   return (
+
     <div>
+       
+      {/* Navigation */}
+      <div className="nav">
+        <img src="logo.png" alt="logo" className="logo" />
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <button onClick={() => setSelectedService(null)} className="services-button">Services</button>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/login" className="login">Login</Link>
+       </div>
       {/* Services Dropdown Buttons */}
       <div className="services">
         <button className="servicebtn1" onClick={() => onSelectService('package')}>
@@ -59,11 +65,8 @@ export default function Package({ onBack, onSelectService }) {
 
           {/* Buttons */}
           <div className="button-group">
-            <button className="details-button">View Details</button>
-            <button className="book-now-button">Book Now</button>
-            <button className="back-button" onClick={onBack}>
-              Go Back
-            </button>
+            <Link to="/mukitnathviewdetials">View Detils</Link>
+           
           </div>
         </div>
       </div>
@@ -88,7 +91,12 @@ export default function Package({ onBack, onSelectService }) {
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
           </p>
-        </div>
+        {/* Buttons */}
+        <div className="button-group">
+          <Link to="/mukitnathviewdetials">View Details</Link>
+          </div>
+          </div>
+
       </div>
 
       {/* Third Tour Details */}
@@ -113,11 +121,7 @@ export default function Package({ onBack, onSelectService }) {
           </p>
           {/* Buttons */}
           <div className="button-group">
-            <button className="details-button">View Details</button>
-            <button className="book-now-button">Book Now</button>
-            <button className="back-button" onClick={onBack}>
-              Go Back
-            </button>
+          <Link to="/mukitnathviewdetials">View Details</Link>
           </div>
         </div>
       </div>
@@ -144,11 +148,7 @@ export default function Package({ onBack, onSelectService }) {
           </p>
           {/* Buttons */}
           <div className="button-group">
-            <button className="details-button">View Details</button>
-            <button className="book-now-button">Book Now</button>
-            <button className="back-button" onClick={onBack}>
-              Go Back
-            </button>
+          <Link to="/mukitnathviewdetials">View Details</Link>
           </div>
         </div>
       </div>

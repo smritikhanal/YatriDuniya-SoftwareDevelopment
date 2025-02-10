@@ -8,6 +8,11 @@ import Home from './pages/Home';
 import About from './pages/about'; // Changed 'about' to 'About'
 import Services from "./pages/services";
 import ContactUs from "./pages/contactUs";
+import Package from "./pages/packages";
+import MukitnathViewDetials from "./pages/mukitnathviewdetials";
+import Booking from "./pages/Booking";
+
+
  
 function App() {
   const [count, setCount] = useState(0);
@@ -21,6 +26,9 @@ function App() {
         <Route path="/about" element={<About/>} /> {/* About Page */}
         <Route path="/services"element={<Services/>} /> {/* About Page */}
         <Route path="/contact"element={<ContactUs/>} /> {/* About Page */}
+        <Route path = "/packages" element={<Package/>}/>
+        <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
+        <Route path = "/booking" element={<Booking/>}/>
       </Routes>
     </Router>
   );

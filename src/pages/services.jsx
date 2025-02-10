@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBox, faPlane, faHandshake } from '@fortawesome/free-solid-svg-icons';
-import "./services.css";
+import "./style/services.css";
 import Package from "./packages";
 import Guide from "./Guide";
 import Recommendation from "./recommendation";
-
 export default function Services() {
   const [selectedService, setSelectedService] = useState(null);
 

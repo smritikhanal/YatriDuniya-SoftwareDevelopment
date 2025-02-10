@@ -6,6 +6,7 @@ import {
   faHandshake,
 } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 export default function Guide({ onSelectService }) {
   // Set body height to 250vh when the component mounts
     useEffect(() => {
@@ -17,11 +18,23 @@ export default function Guide({ onSelectService }) {
     }, []);
     return (
       <div>
+         {/* Navigation */}
+      <div className="nav">
+        <img src="logo.png" alt="logo" className="logo" />
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
+        <button onClick={() => setSelectedService(null)} className="services-button">Services</button>
+        <Link to="/contact">Contact Us</Link>
+        <Link to="/login" className="login">Login</Link>
+        
+       </div>
         {/* Services Dropdown Buttons */}
               <div className="services1">
+                <Link to ="/packages">
                 <button className="servicesbtn1" onClick={() => onSelectService('package')}>
                   <FontAwesomeIcon icon={faBox} /> Package
                 </button>
+                </Link>
                 <button className="servicesbtn2" onClick={() => onSelectService('guide')}>
                   <FontAwesomeIcon icon={faPlane} /> Guide
                 </button>

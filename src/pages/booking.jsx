@@ -52,11 +52,11 @@ export default function Booking() {
         
       </div>
       <div className="bookingcontainer">
-        <h1>Your selected trip:</h1>
+        <h1 className="selected">Your selected trip:</h1>
         <div className="bookingcontainer1">
           <img src="booking.png" alt="booking" className="bookingimg"></img>
           <div className="bookingcontainer2">
-            <h1>
+            <h1 >
             Muktinath Temple tour 
             </h1>
             <p>

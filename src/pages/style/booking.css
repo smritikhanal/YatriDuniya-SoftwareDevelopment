@@ -2,10 +2,16 @@
     background:white;
     height: 170vh;
     width: 900px;
-    color: red;
+    
     margin-left: 300px;
     margin-top: -30px;
+} 
+.selected{
+    color: red;
+    margin-left: 50px;
+    font-size: 30px;
 }
+
 .bookingcontainer1{
     background: #faf3ed;
     color: #000;
@@ -14,6 +20,10 @@
     height: 35vh;
     margin-left: 25px;
     margin-top: 20px;
+}
+.bookingcontainer2 h1{
+    color: #000;
+    font-size: 30px;
 }
 .bookingimg{
     height: 25vh;
@@ -24,6 +34,7 @@
 .bookingcontainer2{
     background:white;
    width: 450px;
+   height: 25vh;
    margin: -216px 10px 100px 350px;
    border-radius: 20px;
     
@@ -60,8 +71,8 @@
     font-size: 25px;
     height: 40px;
     width: 90%;
-    background-color: black;
-    color:white;
+    background-color:white;
+    color:#000;
     margin-bottom: 15px;
     border-radius: 10px;
 
@@ -71,7 +82,7 @@
     font-size: 25px;
     height: 50px;
     width: 90%;
-background:orange;
+background:rgb(215, 170, 85);
     border-radius: 10px;
 
 }
@@ -80,4 +91,7 @@ background:orange;
     font-weight: bolder;
     text-align: center;
     margin-top: 30px;
+}
+.message{
+    height: 100px;
 }

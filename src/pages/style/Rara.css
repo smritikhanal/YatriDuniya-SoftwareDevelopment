@@ -1,0 +1,217 @@
+.Raraservices-dropdown{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    background-color: #f4dfcd;
+      
+   /* background-color: rgba(255, 255, 255, 0.5); White with 50% transparency */
+    margin-top: -100px;
+   }
+   .Raraservice-btn1,.Raraservice-btn2,.Raraservice-btn3{
+      
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 120px;
+    margin-right: 80px;
+  }
+  .RaraLakecontainer {
+    background-color:#faf3ed;
+    color: black;
+    width: 1000px;
+    height:500vh;
+    margin-left: 255px;
+    margin-top: 10px;
+    
+    display: flex;
+    border-radius: 30px;
+    align-items: center; /* Centers vertically */
+    flex-direction: column; /* Ensures content is stacked */
+}
+.RaraLakeh1 {
+    font-size: 40px;
+    word-spacing: 20px;
+    letter-spacing: 2px;
+}
+.RaraLakeimg{
+    margin-top: 30px;
+    width: 900px;
+}
+.RaraLakecontainer2{
+    background-color:#cbac91;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height: 200px;
+    border-radius: 10px;
+   }
+   .RaraLake2{
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px 10px 10px 70px;
+    border-radius: 10px;
+  }
+  .RaraLake2 h2, .RaraLake3 h2{
+    color: black;
+    font-size:20px ;
+  }
+  .RaraLake2 p, .RaraLake3 p, .RaraLake4,.RaraLake5,.RaraLake6{
+    text-align: center;
+    font-size: 18px;
+  }
+  .RaraLake3{
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin: 10px 10px 10px 70px;
+    border-radius: 10px;
+  }
+  .RaraLake4{
+    background: white;
+    width: 200px;
+    height: 150px;
+    margin-top: -155px;
+    margin-left: 320px;
+    border-radius: 10px;
+  }
+  .RaraLake5{
+    background: white;
+    width: 200px;
+    height: 70px;
+    margin-top: -150px;
+    margin-left: 560px;
+    border-radius: 10px;
+}
+.RaraLake6{
+  background: white;
+  width: 200px;
+  height: 70px;
+  margin-top: 10px;
+  margin-left: 560px;
+  border-radius: 10px;
+
+}
+.RaraLake7{
+    background-color:white;
+      color: black;
+      width: 900px;
+      margin-top:50px;
+      height: 250px;
+      border-radius: 10px;
+  }
+  .RaraLake7 h1, .RaraLake8 h1{
+    color: green;
+    text-align: center;
+    font-size: 24px;
+    word-spacing: 5px;
+        letter-spacing: 0.3px;
+        margin-top: 10px;
+
+  }
+
+  .RaraLake7 p, .RaraLake8 p{
+    font-size: 18px;
+    word-spacing: 3px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+        margin-top: 20px;
+  }
+  .RaraLake8{
+
+    background-color:white;
+  color: black;
+  width: 900px;
+  margin-top:50px;
+  height:1700px;
+  border-radius: 10px;
+}
+.RaraLake8 h2{
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    word-spacing: 5px;
+        letter-spacing: 0.3px; 
+}
+.RaraLake9{
+    background-color:white;
+    color: black;
+    width: 900px;
+    margin-top:50px;
+    height:300px;
+    border-radius: 10px;
+  }
+  .RaraLake9 h1 ,h2{
+    color: green;
+    text-align: left;
+    font-size: 24px;
+    word-spacing: 5px;
+        letter-spacing: 0.3px;
+        margin-top: 10px;
+  }
+  .RaraLake10{
+      background-color: #f4dfcd;
+  
+    width: 900px;
+    margin-top:100px;
+    height:300px;
+    border-radius: 10px;
+  
+  }
+  .RaraLake11{
+    position: absolute;
+    background-color: white;
+    width: 800px;
+    height: 250px;
+    margin: 20px 50px 10px 50px;
+    border-radius: 30px;
+  }
+  .RaraLake11 h1{
+  color:black;
+  
+  font-size: 24px;
+  word-spacing: 5px;
+      letter-spacing: 0.3px;
+      margin-top: 10px;
+      margin-left: 10px;
+  }
+  .Raralake11 p{
+    
+    font-size: 18px;
+    word-spacing: 3px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+        margin-top: 20px;
+  }
+  .RaraLake11 h2{
+    font-size: 18px;
+    word-spacing: 3px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+        margin-top: -210px;
+        margin-left: 500px;
+  }
+  .p1{
+    font-size: 18px;
+    word-spacing: 3px;
+        letter-spacing: 0.3px;
+        line-height: 1.5;
+        margin-top: -210px;
+        margin-left: 500px;
+  
+  }
+  .button{
+    background:red;
+    margin-left: 550px;
+    margin-top: 15px;
+    border-radius: 20px;
+  }
+
+  

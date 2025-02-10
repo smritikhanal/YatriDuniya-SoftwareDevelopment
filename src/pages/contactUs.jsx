@@ -6,6 +6,7 @@ import { faMapMarkerAlt, faPhone, faEnvelope } from '@fortawesome/free-solid-svg
 
 
 export default function ContactUs() {
+  
   return (
     <>
       {/* Navigation Bar */}

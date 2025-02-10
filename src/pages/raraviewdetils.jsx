@@ -135,7 +135,7 @@ export default function RaraViewDetials() {
                                       
                                    <div className="raralake10">
                                                    <div className="raralake11">
-                                                     <h1>Muktinath Temple </h1>
+                                                     <h1 className="raralake11h1">Muktinath Temple </h1>
                                                      <p>
                                                        <FontAwesomeIcon icon={faClock} /> 4 Days
                                                        </p>
@@ -153,12 +153,12 @@ export default function RaraViewDetials() {
                                                              </p>
                                    
                                                              <h2 className="rarahhh"> <FontAwesomeIcon icon={faUsers} />Group Size</h2>
-                                                             <p className="p1">20-25 Person(Bus)<br></br>
+                                                             <p className="p11">20-25 Person(Bus)<br></br>
                                                               Rs.10,000 per Person<br></br>
                                                                  8-10 Person (Scorpio)<br></br>
                                                                       Rs.14,000 Per Person</p>
                                                                       <Link to = "/booking">
-                                                                      <button className="button">
+                                                                      <button className="button1">
                                                                        Book this trip
                                                                        </button>
                                                                        </Link>

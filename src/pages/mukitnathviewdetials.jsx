@@ -48,9 +48,11 @@ export default function MukitnathViewDetials() {
             <FontAwesomeIcon icon={faPlane} /> Guide
           </button>
           </Link>
+          <Link to="/recommendation">
           <button className="mukitnathservice-btn3">
             <FontAwesomeIcon icon={faHandshake} /> Recommendation
           </button>
+          </Link>
         </div>
         <div className="mukitnathtemplecontainer">
           <h1 className="mukitnathtempleh1"><FontAwesomeIcon icon={faMapMarkerAlt} /> Mukitnath Temple</h1>

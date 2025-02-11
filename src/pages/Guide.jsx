@@ -40,9 +40,11 @@ export default function Guide({ onSelectService }) {
                 <button className="servicesbtn2" onClick={() => onSelectService('guide')}>
                   <FontAwesomeIcon icon={faPlane} /> Guide
                 </button>
+                <Link to="/recommendation">
                 <button className="servicesbtn3" onClick={() => onSelectService('recommendation')}>
                   <FontAwesomeIcon icon={faHandshake} /> Recommendation
                 </button>
+                </Link>
               </div>
         
         <div className="blog">

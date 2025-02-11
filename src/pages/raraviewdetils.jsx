@@ -47,9 +47,11 @@ export default function RaraViewDetials() {
                       <FontAwesomeIcon icon={faPlane} /> Guide
                     </button>
                     </Link>
+                    <Link to ="/recommendation">
                     <button className="raraservice-btn3">
                       <FontAwesomeIcon icon={faHandshake} /> Recommendation
                     </button>
+                    </Link>
                   </div>
                   <div className="raralakecontainer">
                     <h1 className="raralakeh1"><FontAwesomeIcon icon={faMapMarkerAlt} /> Rara Lake</h1>

@@ -12,6 +12,9 @@ import Package from "./pages/packages";
 import Guide from "./pages/Guide";
 import RaraViewDetials from "./pages/raraviewdetils";
 import MukitnathViewDetials from "./pages/mukitnathviewdetials";
+import KalinchowkViewDetials from "./pages/kalinchowkviewdetils";
+import PokharaViewDetials from "./pages/pokharaviewdetils";
+import Recommendation from "./pages/recommendation";
 import Booking from "./pages/Booking";
 
 
@@ -30,9 +33,12 @@ function App() {
         <Route path="/contact"element={<ContactUs/>} /> {/* About Page */}
         <Route path = "/packages" element={<Package/>}/>
         <Route path = "/Guide" element={<Guide/>}/>
+        <Route path ="/recommendation" element={<Recommendation/>}/>
 
         <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
         <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>
+        <Route path="/kalinchowkviewdetials" element={<KalinchowkViewDetials/>}/>
+        <Route path="/pokharaviewdetials" element={<PokharaViewDetials/>}/>
         <Route path = "/booking" element={<Booking/>}/>
       </Routes>
     </Router>

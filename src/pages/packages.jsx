@@ -39,9 +39,11 @@ export default function Package({ onBack,
           <FontAwesomeIcon icon={faPlane} /> Guide
         </button>
         </Link> 
+        <Link to ="/recommendation">
         <button className="servicebtn3" onClick={() => onSelectService('recommendation')}>
           <FontAwesomeIcon icon={faHandshake} /> Recommendation
         </button>
+        </Link>
       </div>
 
       {/* Tour Details */}
@@ -123,7 +125,7 @@ export default function Package({ onBack,
           </p>
           {/* Buttons */}
           <div className="button-group">
-          <Link to="/mukitnathviewdetials">View Details</Link>
+          <Link to="/pokharaviewdetials">View Details</Link>
           </div>
         </div>
       </div>
@@ -150,7 +152,7 @@ export default function Package({ onBack,
           </p>
           {/* Buttons */}
           <div className="button-group">
-          <Link to="/mukitnathviewdetials">View Details</Link>
+          <Link to="/kalinchowkviewdetials">View Details</Link>
           </div>
         </div>
       </div>

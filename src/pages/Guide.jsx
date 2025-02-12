@@ -7,13 +7,10 @@ import {
   faHandshake,
 } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect } from 'react';
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
-=======
-import { Link} from "react-router-dom";
+
 import { Facebook } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
->>>>>>> sujal
 export default function Guide({ onSelectService }) {
   // Set body height to 250vh when the component mounts
     useEffect(() => {
@@ -25,21 +22,6 @@ export default function Guide({ onSelectService }) {
     }, []);
     return (
       <div>
-<<<<<<< HEAD
-         {/* Navigation */}
-      <div className="nav">
-        <img src="logo.png" alt="logo" className="logo" />
-        <Link to="/">Home</Link>
-        <Link to="/about">About Us</Link>
-        <button onClick={() => setSelectedService(null)} className="services-button">Services</button>
-        <Link to="/contact">Contact Us</Link>
-        <Link to="/login" className="login">Login</Link>
-        
-       </div>
-        {/* Services Dropdown Buttons */}
-              <div className="services1">
-                <Link to ="/packages">
-=======
          <div className="nav">
                 <img src="logo.png" alt="logo" className="logo" />
                 <Link to="/">Home</Link>
@@ -55,7 +37,6 @@ export default function Guide({ onSelectService }) {
         {/* Services Dropdown Buttons */}
               <div className="services1">
                 <Link to="/packages">
->>>>>>> sujal
                 <button className="servicesbtn1" onClick={() => onSelectService('package')}>
                   <FontAwesomeIcon icon={faBox} /> Package
                 </button>

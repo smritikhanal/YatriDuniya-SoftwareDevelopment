@@ -88,6 +88,17 @@ export default function ContactUs() {
          
         
       </div>
+      <div className="bottomcontact">
+            <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+            <h2>yatriduniya12@gmail.com</h2>
+            <h3>Follow us on Social Media</h3>
+            <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+            </Link>
+            <Link to="https://www.facebook.com/" target="_blank"> 
+                <div className="feb"><Facebook size={40} color="Blue" /></div>
+            </Link>
+        </div>
     </>
   );
 }

@@ -155,5 +155,43 @@ body {
     font-size: 20px;
    
   }
+.bottomcontact {
+  position:absolute;
+    background-color: #cbac91;
+  
+    text-align: center;
+   width: 100%;
+    height: 100px ;
+    margin-top: 18px;
+  }
+  .bottomcontact h1{
+    font-size: 20px;
+margin-left: -1240px;
+margin-top: 10px;
+color: black;
+
+  }
+  
+  .bottomcontact h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+  }
+  .bottomcontact h3{
+    font-size: 20px;
+    color: black;
+    margin-top: -70px;
+    margin-left: 1100px;
+  
+  }
+  .feb{
+    margin-top: -45px;
+    margin-left: 1100px;
+  }
+  .insta{
+    
+    margin-left: 1000px;
+
+  }
  
  

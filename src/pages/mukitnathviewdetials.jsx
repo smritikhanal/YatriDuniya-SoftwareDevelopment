@@ -1,8 +1,10 @@
 import { Link} from "react-router-dom";
 import React, { useEffect }from "react"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBox, faPlane, faHandshake,faMapMarkerAlt, faFlag,faClock,faMountain,faGaugeHigh,faStar,faUsers} from '@fortawesome/free-solid-svg-icons';
+import { faBox,faPhone, faPlane, faHandshake,faMapMarkerAlt, faFlag,faClock,faMountain,faGaugeHigh,faStar,faUsers} from '@fortawesome/free-solid-svg-icons';
 import "./style/mukitnath.css";
+import { Facebook } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 
 export default function MukitnathViewDetials() {
@@ -165,6 +167,17 @@ export default function MukitnathViewDetials() {
                 </div>
               </div>
 
+        </div>
+        <div className="bottommukitnath">
+            <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+            <h2>yatriduniya12@gmail.com</h2>
+            <h3>Follow us on Social Media</h3>
+            <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+            </Link>
+            <Link to="https://www.facebook.com/" target="_blank"> 
+                <div className="feb"><Facebook size={40} color="Blue" /></div>
+            </Link>
         </div>
 
 

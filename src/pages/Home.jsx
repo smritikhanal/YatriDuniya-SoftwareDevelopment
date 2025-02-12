@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./style/Home.css";
 import React, { useEffect } from 'react';
+import Footer from "./footer";
 
 export default function Home() {
    // Set body height to 250vh when the component mounts
@@ -29,11 +30,9 @@ export default function Home() {
         <img src="lake.png" alt="lake" className="lake" />
         <p className="p">"Turning Travel Dreams Into Reality"</p>
       </div>
+      <Footer/>
 
-      {/* Bottom Section */}
-      <div className="bottom">
-        <h1>Hello World</h1> {/* This is the content for Home page */}
-      </div>
+    
     </div>
   );
 }

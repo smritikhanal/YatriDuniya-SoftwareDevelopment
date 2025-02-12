@@ -2,11 +2,14 @@ import "./style/guide.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBox,
+  faPhone,
   faPlane,
   faHandshake,
 } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect } from 'react';
 import { Link} from "react-router-dom";
+import { Facebook } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 export default function Guide({ onSelectService }) {
   // Set body height to 250vh when the component mounts
     useEffect(() => {
@@ -149,6 +152,17 @@ export default function Guide({ onSelectService }) {
               
             </p>
           </div>
+        </div>
+        <div className="bottomguide">
+            <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+            <h2>yatriduniya12@gmail.com</h2>
+            <h3>Follow us on Social Media</h3>
+            <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+            </Link>
+            <Link to="https://www.facebook.com/" target="_blank"> 
+                <div className="feb"><Facebook size={40} color="Blue" /></div>
+            </Link>
         </div>
       </div>
     );

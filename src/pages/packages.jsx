@@ -1,9 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faClock,faMountain,faGaugeHigh,faStar,faBox,faPlane,faHandshake,}
+import {faClock,faPhone,faMountain,faGaugeHigh,faStar,faBox,faPlane,faHandshake,}
 from '@fortawesome/free-solid-svg-icons';
+import { Facebook } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 import './style/packages.css';
 import React, { useEffect } from 'react';
 import { Link } from "react-router-dom";
+
 
 export default function Package({ onBack,
   onSelectService }) {
@@ -156,6 +159,18 @@ export default function Package({ onBack,
           </div>
         </div>
       </div>
+      <div className="bottompackages">
+                  <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+                  <h2>yatriduniya12@gmail.com</h2>
+                  <h3>Follow us on Social Media</h3>
+                  <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                      <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+                  </Link>
+                  <Link to="https://www.facebook.com/" target="_blank"> 
+                      <div className="feb"><Facebook size={40} color="Blue" /></div>
+                  </Link>
+              </div>
+      
     </div>
   );
 }

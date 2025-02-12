@@ -16,6 +16,7 @@ import KalinchowkViewDetials from "./pages/kalinchowkviewdetils";
 import PokharaViewDetials from "./pages/pokharaviewdetils";
 import Recommendation from "./pages/recommendation";
 import Booking from "./pages/Booking";
+import Footer from "./pages/footer";
 
 
  
@@ -34,6 +35,7 @@ function App() {
         <Route path = "/packages" element={<Package/>}/>
         <Route path = "/Guide" element={<Guide/>}/>
         <Route path ="/recommendation" element={<Recommendation/>}/>
+       
 
         <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
         <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>

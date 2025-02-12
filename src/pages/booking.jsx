@@ -1,8 +1,10 @@
 import React, { useEffect, useState }from "react"; 
 import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faMountain, faGaugeHigh, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faPhone,faMountain, faGaugeHigh, faStar } from '@fortawesome/free-solid-svg-icons';
 import "./style/booking.css";
+import { Facebook } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Booking() {
   const [formData, setFormData] = useState({
@@ -52,11 +54,19 @@ export default function Booking() {
         
       </div>
       <div className="bookingcontainer">
+<<<<<<< HEAD
         <h1 className="selected">Your selected trip:</h1>
         <div className="bookingcontainer1">
           <img src="booking.png" alt="booking" className="bookingimg"></img>
           <div className="bookingcontainer2">
             <h1 >
+=======
+        <h1 className="h1booking">Your selected trip:</h1>
+        <div className="bookingcontainer1">
+          <img src="booking.png" alt="booking" className="bookingimg"></img>
+          <div className="bookingcontainer2">
+            <h1 className="h1tour">
+>>>>>>> sujal
             Muktinath Temple tour 
             </h1>
             <p>
@@ -79,7 +89,7 @@ export default function Booking() {
                                  </div>
                                  <div className="bookingcontainer3">
                                 <h2>
-                    personal Information:
+                    Personal Information:
                   </h2>
                   <form onSubmit={handleSubmit}>
             <h1 className="nameh1">Name</h1>
@@ -100,14 +110,22 @@ export default function Booking() {
                   <p className="last">enjoy your trip with yatriDuniya!</p>
 
 
-            
-          
-        </div>
       
+        </div>
+   
         
       </div>
-      
-    
+                <div className="bottombook">
+                  <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+                  <h2>yatriduniya12@gmail.com</h2>
+                  <h3>Follow us on Social Media</h3>
+                  <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                      <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+                  </Link>
+                  <Link to="https://www.facebook.com/" target="_blank"> 
+                      <div className="feb"><Facebook size={40} color="Blue" /></div>
+                  </Link>
+              </div>
     </>
   );
 }

@@ -2,11 +2,18 @@ import "./style/guide.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBox,
+  faPhone,
   faPlane,
   faHandshake,
 } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect } from 'react';
+<<<<<<< HEAD
 import { Link } from "react-router-dom";
+=======
+import { Link} from "react-router-dom";
+import { Facebook } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
+>>>>>>> sujal
 export default function Guide({ onSelectService }) {
   // Set body height to 250vh when the component mounts
     useEffect(() => {
@@ -18,6 +25,7 @@ export default function Guide({ onSelectService }) {
     }, []);
     return (
       <div>
+<<<<<<< HEAD
          {/* Navigation */}
       <div className="nav">
         <img src="logo.png" alt="logo" className="logo" />
@@ -31,6 +39,23 @@ export default function Guide({ onSelectService }) {
         {/* Services Dropdown Buttons */}
               <div className="services1">
                 <Link to ="/packages">
+=======
+         <div className="nav">
+                <img src="logo.png" alt="logo" className="logo" />
+                <Link to="/">Home</Link>
+                <Link to="/about">About Us</Link>
+                <Link to="/services">
+                    <button className="services-button">Services</button>
+                 </Link>
+             
+        
+                <Link to="/contact">Contact Us</Link>
+                <Link to="/login" className="login">Login</Link>
+              </div>
+        {/* Services Dropdown Buttons */}
+              <div className="services1">
+                <Link to="/packages">
+>>>>>>> sujal
                 <button className="servicesbtn1" onClick={() => onSelectService('package')}>
                   <FontAwesomeIcon icon={faBox} /> Package
                 </button>
@@ -38,13 +63,15 @@ export default function Guide({ onSelectService }) {
                 <button className="servicesbtn2" onClick={() => onSelectService('guide')}>
                   <FontAwesomeIcon icon={faPlane} /> Guide
                 </button>
+                <Link to="/recommendation">
                 <button className="servicesbtn3" onClick={() => onSelectService('recommendation')}>
                   <FontAwesomeIcon icon={faHandshake} /> Recommendation
                 </button>
+                </Link>
               </div>
         
         <div className="blog">
-          <img src="people.png" alt="people" className="people"/>
+          <img src="people.png" alt="people" className="peopl"/>
           <h1>Davidn william</h1>
           <h2>Evrest Base camp</h2>
          
@@ -145,6 +172,17 @@ export default function Guide({ onSelectService }) {
               
             </p>
           </div>
+        </div>
+        <div className="bottomguide">
+            <h1><FontAwesomeIcon icon={faPhone} /> +977 9813769389</h1>
+            <h2>yatriduniya12@gmail.com</h2>
+            <h3>Follow us on Social Media</h3>
+            <Link to="https://www.instagram.com/sujalgauchan/" target="_blank"> 
+                <div className="insta"><FaInstagram size={40} color="#E4405F" /></div>
+            </Link>
+            <Link to="https://www.facebook.com/" target="_blank"> 
+                <div className="feb"><Facebook size={40} color="Blue" /></div>
+            </Link>
         </div>
       </div>
     );

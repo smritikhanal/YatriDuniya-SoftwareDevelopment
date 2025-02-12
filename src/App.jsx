@@ -10,9 +10,18 @@ import Services from "./pages/services";
 import ContactUs from "./pages/contactUs";
 import Package from "./pages/packages";
 import Guide from "./pages/Guide";
+<<<<<<< HEAD
 import MukitnathViewDetials from "./pages/mukitnathviewdetials";
 import RaraViewDetials from "./pages/raraviewdetils";
+=======
+import RaraViewDetials from "./pages/raraviewdetils";
+import MukitnathViewDetials from "./pages/mukitnathviewdetials";
+import KalinchowkViewDetials from "./pages/kalinchowkviewdetils";
+import PokharaViewDetials from "./pages/pokharaviewdetils";
+import Recommendation from "./pages/recommendation";
+>>>>>>> sujal
 import Booking from "./pages/Booking";
+import Footer from "./pages/footer";
 
 
  
@@ -30,8 +39,18 @@ function App() {
         <Route path="/contact"element={<ContactUs/>} /> {/* About Page */}
         <Route path = "/packages" element={<Package/>}/>
         <Route path = "/Guide" element={<Guide/>}/>
+<<<<<<< HEAD
         <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
         <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>
+=======
+        <Route path ="/recommendation" element={<Recommendation/>}/>
+       
+
+        <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
+        <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>
+        <Route path="/kalinchowkviewdetials" element={<KalinchowkViewDetials/>}/>
+        <Route path="/pokharaviewdetials" element={<PokharaViewDetials/>}/>
+>>>>>>> sujal
         <Route path = "/booking" element={<Booking/>}/>
 
       </Routes>

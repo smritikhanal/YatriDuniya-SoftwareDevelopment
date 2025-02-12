@@ -2,7 +2,11 @@
     background:white;
     height: 170vh;
     width: 900px;
+<<<<<<< HEAD
     
+=======
+   
+>>>>>>> sujal
     margin-left: 300px;
     margin-top: -30px;
 } 
@@ -11,7 +15,28 @@
     margin-left: 50px;
     font-size: 30px;
 }
+<<<<<<< HEAD
 
+=======
+ .h1booking{
+    color: red;
+    font-weight:bolder ;
+    font-size: 30px;
+   
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+}
+.h1tour{
+    color: #000;
+    font-weight:bolder ;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+}
+>>>>>>> sujal
 .bookingcontainer1{
     background: #faf3ed;
     color: #000;
@@ -34,14 +59,27 @@
 .bookingcontainer2{
     background:white;
    width: 450px;
+<<<<<<< HEAD
    height: 25vh;
    margin: -216px 10px 100px 350px;
+=======
+   height: 220px;
+   margin: -250px 10px 100px 350px;
+>>>>>>> sujal
    border-radius: 20px;
     
+}
+.bookingcontainer2 p{
+    margin-top: -20px;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 3;
 }
 .bookingcontainer h2
 {
     color: red;
+    font-weight: bolder;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -49,7 +87,7 @@
     background:#faf3ed;
     border-radius: 20px;
     width: 850px;
-    height: 100vh;
+    height: 102vh;
     margin-left: 5px;
     margin-top: 20px;
 }
@@ -66,13 +104,17 @@
     
 
 }
-.name,.contact,.email,.date,.message,.people{
+.name,.contact,.email,.date,.people{
     margin-left: 20px;
     font-size: 25px;
     height: 40px;
     width: 90%;
     background-color:white;
+<<<<<<< HEAD
     color:#000;
+=======
+    color:black;
+>>>>>>> sujal
     margin-bottom: 15px;
     border-radius: 10px;
 
@@ -93,5 +135,63 @@ background:rgb(215, 170, 85);
     margin-top: 30px;
 }
 .message{
+<<<<<<< HEAD
     height: 100px;
 }
+=======
+    margin-left: 20px;
+    font-size: 25px;
+    height: 100px;
+    width: 90%;
+    background-color:white;
+    color:black;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+.journey{ 
+    background-color: aliceblue;
+
+}
+.bottombook {
+  position:absolute;
+    background-color: #cbac91;
+  
+    text-align: center;
+   width: 100%;
+    height: 100px ;
+    margin-top: 90px;
+  }
+  .bottombook h1{
+    font-size: 20px;
+margin-left: -1240px;
+margin-top: 10px;
+color: black;
+
+  }
+  
+  .bottombook h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+  }
+  .bottombook h3{
+    font-size: 20px;
+    color: black;
+    margin-top: -70px;
+    margin-left: 1100px;
+  
+  }
+  .feb{
+    margin-top: -45px;
+    margin-left: 1100px;
+  }
+  .insta{
+    
+    margin-left: 1000px;
+
+  }
+ 
+ 
+
+>>>>>>> sujal

@@ -41,9 +41,11 @@ export default function Guide({ onSelectService }) {
                   <FontAwesomeIcon icon={faBox} /> Package
                 </button>
                 </Link>
+                <Link>
                 <button className="servicesbtn2" onClick={() => onSelectService('guide')}>
                   <FontAwesomeIcon icon={faPlane} /> Guide
                 </button>
+                </Link>
                 <Link to="/recommendation">
                 <button className="servicesbtn3" onClick={() => onSelectService('recommendation')}>
                   <FontAwesomeIcon icon={faHandshake} /> Recommendation
@@ -129,13 +131,16 @@ export default function Guide({ onSelectService }) {
         <div className="blog5">
           <img src="jackson.png" alt="jackson" className="people4"/>
           <h1>
+          Jackson Richard
 
           </h1>
           <h2>
+          Tilicho Lake 
 
           </h2>
           <div className="blog5p">
             <p>
+              The trek to Tilicho Lake takes you on a breathtaking journey through the Annapurna region of Nepal, leading to one of the highest lakes in the world, situated at an altitude of 4,919 meters. Known for its stunning turquoise waters and surrounded by towering peaks, Tilicho Lake offers an unforgettable adventure through diverse landscapes, including alpine forests, high-altitude deserts, and picturesque villages. The trek also provides panoramic views of the Annapurna and Manaslu ranges, making it a must-visit destination for adventure seekers and nature lovers.
               
             </p>
           </div>
@@ -143,14 +148,16 @@ export default function Guide({ onSelectService }) {
         <div className="blog6">
           <img src="karki.png" alt="karki" className="people5"/>
           <h1>
+          Shristi karki
 
           </h1>
           <h2>
+          Rara lake
 
           </h2>
           <div className="blog4p">
             <p>
-              
+            My journey to Rara Lake was nothing short of magical—a perfect blend of adventure and serenity. Nestled in the remote hills of western Nepal, reaching this pristine destination felt like stepping into a hidden paradise. The trek through lush forests, quaint villages, and rugged trails was as rewarding as the first glimpse of the crystal-clear lake, surrounded by snow-capped peaks. The peaceful ambiance and untouched beauty of Rara Lake left me in awe, making it an unforgettable journey to one of Nepal’s most enchanting treasures.
             </p>
           </div>
         </div>

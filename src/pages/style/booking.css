@@ -2,11 +2,7 @@
     background:white;
     height: 170vh;
     width: 900px;
-<<<<<<< HEAD
-    
-=======
    
->>>>>>> sujal
     margin-left: 300px;
     margin-top: -30px;
 } 
@@ -15,9 +11,6 @@
     margin-left: 50px;
     font-size: 30px;
 }
-<<<<<<< HEAD
-
-=======
  .h1booking{
     color: red;
     font-weight:bolder ;
@@ -36,7 +29,6 @@
     margin-bottom: 30px;
 
 }
->>>>>>> sujal
 .bookingcontainer1{
     background: #faf3ed;
     color: #000;
@@ -59,13 +51,8 @@
 .bookingcontainer2{
     background:white;
    width: 450px;
-<<<<<<< HEAD
-   height: 25vh;
-   margin: -216px 10px 100px 350px;
-=======
    height: 220px;
    margin: -250px 10px 100px 350px;
->>>>>>> sujal
    border-radius: 20px;
     
 }
@@ -110,11 +97,7 @@
     height: 40px;
     width: 90%;
     background-color:white;
-<<<<<<< HEAD
-    color:#000;
-=======
     color:black;
->>>>>>> sujal
     margin-bottom: 15px;
     border-radius: 10px;
 
@@ -135,10 +118,6 @@ background:rgb(215, 170, 85);
     margin-top: 30px;
 }
 .message{
-<<<<<<< HEAD
-    height: 100px;
-}
-=======
     margin-left: 20px;
     font-size: 25px;
     height: 100px;
@@ -194,4 +173,3 @@ color: black;
  
  
 
->>>>>>> sujal

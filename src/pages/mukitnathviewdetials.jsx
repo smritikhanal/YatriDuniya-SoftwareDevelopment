@@ -43,25 +43,14 @@ export default function MukitnathViewDetials() {
             <FontAwesomeIcon icon={faBox} /> Package
           </button>
         </Link>
-<<<<<<< HEAD
-
-
-          <Link to="/Guide">
-=======
            
 
            <Link to ="/Guide">
->>>>>>> sujal
            <button className="mukitnathservice-btn2" >
             <FontAwesomeIcon icon={faPlane} /> Guide
           </button>
           </Link>
-<<<<<<< HEAD
-
-          
-=======
           <Link to="/recommendation">
->>>>>>> sujal
           <button className="mukitnathservice-btn3">
             <FontAwesomeIcon icon={faHandshake} /> Recommendation
           </button>

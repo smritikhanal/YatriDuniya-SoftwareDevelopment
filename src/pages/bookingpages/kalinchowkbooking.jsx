@@ -2,11 +2,13 @@ import React, { useEffect, useState }from "react";
 import { Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock, faPhone,faMountain, faGaugeHigh, faStar } from '@fortawesome/free-solid-svg-icons';
-import "./style/booking.css";
+
 import { Facebook } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
+import "../style/booking.css";
 
-export default function Booking() {
+
+export default function KalinchowkBooking() {
   const [formData, setFormData] = useState({
     name: "",
     contact: "",
@@ -54,29 +56,21 @@ export default function Booking() {
         
       </div>
       <div className="bookingcontainer">
-<<<<<<< HEAD
-        <h1 className="selected">Your selected trip:</h1>
-        <div className="bookingcontainer1">
-          <img src="booking.png" alt="booking" className="bookingimg"></img>
-          <div className="bookingcontainer2">
-            <h1 >
-=======
         <h1 className="h1booking">Your selected trip:</h1>
         <div className="bookingcontainer1">
-          <img src="booking.png" alt="booking" className="bookingimg"></img>
+          <img src="imagekalinchowk.png" alt="booking" className="bookingimg"></img>
           <div className="bookingcontainer2">
             <h1 className="h1tour">
->>>>>>> sujal
-            Muktinath Temple tour 
+            Kalinchowk tour 
             </h1>
             <p>
-                                <FontAwesomeIcon icon={faClock} /> 4 Days
+                                <FontAwesomeIcon icon={faClock} /> 3 Days
                                 </p>
                                 <p>
-                                  <FontAwesomeIcon icon={faMountain} /> 3,710 M
+                                  <FontAwesomeIcon icon={faMountain} /> 3842 M
                                   </p>
                                   <p>
-                                    <FontAwesomeIcon icon={faGaugeHigh} /> Moderate
+                                    <FontAwesomeIcon icon={faGaugeHigh} /> Easy
                                     </p>
                                     <p>
                                       <FontAwesomeIcon icon={faStar} />

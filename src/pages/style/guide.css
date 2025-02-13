@@ -7,20 +7,20 @@
     margin-top: -350px;
     border-radius: 40px;
 }
-.blog h1, .blog2 h1,.blog4 h1 {
+.blog h1, .blog2 h1,.blog4 h1,.blog5 h1 ,.blog6 h1{
     font-size: 20px;
     color: #000;
     margin-left: 20px;
     
 }
-.blog h2,.blog2 h2, .blog4 h2, .blog3 h2{
+.blog h2,.blog2 h2, .blog4 h2, .blog3 ,.blog5 h2,.blog6 h2{
     font-size: 14px;
     color: #000;
     font-weight: lighter;
     margin-left: 35px;
     
 }
-.blogp, .blog2p,.blog4p{
+.blogp, .blog2p,.blog4p,.blog5p ,.blog6p{
 
     font-size: 10px;
     line-height: 1.6;

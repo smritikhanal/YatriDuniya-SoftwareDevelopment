@@ -56,6 +56,8 @@ export default function MukitnathViewDetials() {
           </button>
           </Link>
         </div>
+
+        
         <div className="mukitnathtemplecontainer">
           <h1 className="mukitnathtempleh1"><FontAwesomeIcon icon={faMapMarkerAlt} /> Mukitnath Temple</h1>
           <img src="mukitnathtemple.png" alt="mukitnathtemple" className="mukitnathtempleimg"></img>

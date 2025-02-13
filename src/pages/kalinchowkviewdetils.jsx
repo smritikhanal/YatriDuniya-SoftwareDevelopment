@@ -137,7 +137,7 @@ export default function KalinchowkViewDetials() {
                                                                                           Rs.10,000 per Person<br></br>
                                                                                              8-10 Person (Scorpio)<br></br>
                                                                                                   Rs.14,000 Per Person</p>
-                                                                                                  <Link to = "/booking">
+                                                                                                  <Link to = "/kalinchowkbooking">
                                                                                                   <button className="button1">
                                                                                                    Book this trip
                                                                                                    </button>

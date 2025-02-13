@@ -37,16 +37,19 @@ export default function Package({ onBack,
         <button className="servicebtn1" onClick={() => onSelectService('package')}>
           <FontAwesomeIcon icon={faBox} /> Package
         </button>
+        
         <Link to ="/Guide">
         <button className="servicebtn2" onClick={() => onSelectService('guide')}>
           <FontAwesomeIcon icon={faPlane} /> Guide
         </button>
         </Link> 
+
         <Link to ="/recommendation">
         <button className="servicebtn3" onClick={() => onSelectService('recommendation')}>
           <FontAwesomeIcon icon={faHandshake} /> Recommendation
         </button>
         </Link>
+
       </div>
 
       {/* Tour Details */}

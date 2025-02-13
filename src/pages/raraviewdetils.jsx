@@ -1,7 +1,9 @@
+
+import React, { useEffect } from 'react';
 import { Link} from "react-router-dom";
-import React, { useEffect }from "react"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBox, faPhone,faPlane, faHandshake,faMapMarkerAlt, faFlag,faClock,faMountain,faGaugeHigh,faStar,faUsers} from '@fortawesome/free-solid-svg-icons';
+import { faBox, faPhone,faPlane, faHandshake, faMapMarkerAlt , faFlag,faClock,faMountain,faGaugeHigh,faStar,faUsers} from '@fortawesome/free-solid-svg-icons';
+
 import "./style/rara.css";
 import { Facebook } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
@@ -161,7 +163,7 @@ export default function RaraViewDetials() {
                                                               Rs.10,000 per Person<br></br>
                                                                  8-10 Person (Scorpio)<br></br>
                                                                       Rs.14,000 Per Person</p>
-                                                                      <Link to = "/booking">
+                                                                      <Link to = "/rarabooking">
                                                                       <button className="button1">
                                                                        Book this trip
                                                                        </button>

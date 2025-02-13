@@ -15,7 +15,10 @@ import MukitnathViewDetials from "./pages/mukitnathviewdetials";
 import KalinchowkViewDetials from "./pages/kalinchowkviewdetils";
 import PokharaViewDetials from "./pages/pokharaviewdetils";
 import Recommendation from "./pages/recommendation";
-import Booking from "./pages/Booking";
+import Booking from "./pages/bookingpages/mukitnathbooking";
+import RaraBooking from "./pages/bookingpages/rarabooking";
+import KalinchowkBooking from "./pages/bookingpages/kalinchowkbooking";
+import Login from "./pages/login";
 import Footer from "./pages/footer";
 
 
@@ -35,13 +38,17 @@ function App() {
         <Route path = "/packages" element={<Package/>}/>
         <Route path = "/Guide" element={<Guide/>}/>
         <Route path ="/recommendation" element={<Recommendation/>}/>
-       
+        <Route path ="/login" element={<Login/>}/>
 
         <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
         <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>
         <Route path="/kalinchowkviewdetials" element={<KalinchowkViewDetials/>}/>
         <Route path="/pokharaviewdetials" element={<PokharaViewDetials/>}/>
         <Route path = "/booking" element={<Booking/>}/>
+        <Route path ="/rarabooking" element={<RaraBooking/>}/>
+        <Route path ="/kalinchowkbooking" element={<KalinchowkBooking/>}/>
+
+
       </Routes>
     </Router>
   );

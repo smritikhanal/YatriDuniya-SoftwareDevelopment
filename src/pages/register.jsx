@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react"; // Import icons
+import {Link} from "react-router-dom";
 import "./style/Register.css";
 
 export default function Register() {
@@ -50,6 +51,15 @@ export default function Register() {
   };
 
   return (
+    <>
+    <div className="nav">
+            <img src="logo.png" alt="logo" className="logo" />
+            <Link to="/">Home</Link> {/* Link to Home page */}
+            <Link to="/about">About Us</Link> {/* Link to About page */}
+            <Link to="/services">Services</Link> {/* Link to Services page */}
+            <Link to="/contact">Contact Us</Link> {/* Link to Contact page */}
+            <Link to="/login" className="login">Login</Link> {/* Link to Login page */}
+          </div>
     <div className="register">
       <h1>Create Your Account Now!</h1>
 
@@ -95,5 +105,8 @@ export default function Register() {
       <span className="registerspan">Already have an account?</span>
       <a href="/login">Log in</a>
     </div>
+    </>
+    
+
   );
 }

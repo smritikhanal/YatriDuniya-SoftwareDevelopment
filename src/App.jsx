@@ -21,6 +21,7 @@ import KalinchowkBooking from "./pages/bookingpages/kalinchowkbooking";
 import Login from "./pages/login";
 import Register from "./pages/register";
 import Footer from "./pages/footer";
+import PokharaBooking from "./pages/bookingpages/pokharabooking";
 
 
  
@@ -49,6 +50,7 @@ function App() {
         <Route path = "/booking" element={<Booking/>}/>
         <Route path ="/rarabooking" element={<RaraBooking/>}/>
         <Route path ="/kalinchowkbooking" element={<KalinchowkBooking/>}/>
+        <Route path ="/pokharabooking" element={<PokharaBooking/>}/>
 
 
       </Routes>

@@ -109,14 +109,10 @@ export default function KalinchowkViewDetials() {
                                                          <h2>Tour Cost excludes</h2>
                                                            <p>Bar Bills<br></br>
                                                                     personal Expenditure</p>
-
-                                                                           
-                            
-                          </div>
-                          <div className="kalinchowk10">
-                                <div className="kalinchowk11">
-                                                                                 <h1 className="kalinchowk11h1">Muktinath Temple </h1>
-                                                                                 <p>
+                                                                    </div>
+                                                                    <div className="kalinchowk10">
+                                                                      <div className="kalinchowk11">
+                                                                        <h1 className="kalinchowk11h1">Muktinath Temple </h1> <p>
                                                                                    <FontAwesomeIcon icon={faClock} /> 4 Days
                                                                                    </p>
                                                                                    <p>

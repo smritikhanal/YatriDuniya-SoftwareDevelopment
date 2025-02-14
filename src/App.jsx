@@ -19,6 +19,7 @@ import Booking from "./pages/bookingpages/mukitnathbooking";
 import RaraBooking from "./pages/bookingpages/rarabooking";
 import KalinchowkBooking from "./pages/bookingpages/kalinchowkbooking";
 import Login from "./pages/login";
+import Register from "./pages/register";
 import Footer from "./pages/footer";
 
 
@@ -39,6 +40,7 @@ function App() {
         <Route path = "/Guide" element={<Guide/>}/>
         <Route path ="/recommendation" element={<Recommendation/>}/>
         <Route path ="/login" element={<Login/>}/>
+        <Route path ="/register" element={<Register/>}/>
 
         <Route path="/mukitnathviewdetials" element={<MukitnathViewDetials/>}/>
         <Route path="/raraviewdetials" element={<RaraViewDetials/>}/>

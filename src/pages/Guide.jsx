@@ -101,15 +101,17 @@ export default function Guide({ onSelectService }) {
         <div className="blog3">
           <img src="mount.png" alt="mount" className="people2"/>
           <h1>
+          Riya Maharjan
 
           </h1>
           <h2>
-          Namche Bazaar
+          Mustang
 
 
           </h2>
           <div className="blog3p">
             <p>
+            My journey to Mustang was an incredible adventure filled with challenges, beauty, and unforgettable moments. From the excitement of entering the mystical landscapes to trekking through rugged terrains, crossing ancient villages, and walking alongside towering cliffs, every step was an awe-inspiring experience. Meeting the warm-hearted locals, witnessing their rich Tibetan-influenced culture, and exploring the ancient monasteries were truly humbling. This trek was not just about reaching the destination but about embracing the journey, pushing my limits, and creating memories that will last a lifetime.
 
             </p>
           </div>

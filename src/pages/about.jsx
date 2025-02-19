@@ -30,7 +30,7 @@ export default function ContactUs() {
         <img src="abc.jpg" alt="abc" className="abc"></img>
         <img src="aboutkalinchowk.jpg" alt="aboutkalinchowk" className="aboutkalinchowk"></img>
         <div className="abouth1">
-        <h1>This are the place we viseted in 2025</h1>
+        <h1>This are the place we visited in 2025</h1>
         </div>
 
 

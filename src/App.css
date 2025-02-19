@@ -1,0 +1,26 @@
+/* Make sure the body and html take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container to stretch full height */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of viewport */
+}
+
+/* Content grows to push footer down */
+.content {
+    flex: 1; /* Takes all available space */
+    padding-bottom: 60px; /* Avoids overlap with fixed footer */
+}
+
+/* Footer styling */
+.bottom {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+}

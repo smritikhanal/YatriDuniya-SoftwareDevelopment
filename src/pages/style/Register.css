@@ -1,0 +1,85 @@
+.register{
+    background:#cbac91;
+    color: white;
+    margin-left: 500px;
+    height: 550px;
+    margin-top: 70px;
+    width:600px;
+    border-radius: 20px;
+    border:1px solid red;
+}
+
+  .register h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: #333;
+   
+  }
+   /* Labels */
+   .register label {
+    display: block;
+
+  font-size: 25px;
+  padding-left: 10px;
+    text-align: left;
+    color: black;
+  }
+  .register input[type="text"],
+  .register input[type="password"],
+  .register input[type="email"]  
+  {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .register button {
+    width: 90%;
+    padding: 10px;
+    background:rgb(225, 128, 23);
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .register button:hover {
+    background: #0056b3;
+  }
+  .registerspan {
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .a {
+    color: #007bff;
+    text-decoration: none;
+    
+  }
+  
+  .a:hover {
+    text-decoration: underline;
+  }
+.password-container button{
+
+    background-color:white;
+    color:black;
+    width: 50px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 0px;
+    height: 40px;
+border: 1px solid white;
+  }
+  
+  

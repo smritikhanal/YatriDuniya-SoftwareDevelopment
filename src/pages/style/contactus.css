@@ -1,0 +1,197 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: blac;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+  }
+  
+  /* Navigation Bar */
+  .nav {
+    display: flex; /* Use flex for alignment */
+    align-items: center;
+    justify-content: space-between; /* Space links evenly */
+    padding: 0 20px; /* Add padding to the sides */
+    width: 100%;
+    height: 70px;
+    position: fixed; /* Keep the navbar at the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align to the left */
+    background-color: #cbac91; /* Set background color */
+    z-index: 1000; /* Ensure it stays above other elements */
+  }
+  .container {
+    background-color:#faf3ed;
+    width: 1300px;
+    height: 500px;
+    color: black;
+    border-radius: 20px;
+    margin-left: 150px;
+    padding-left: 40px;
+  }
+  .info-box{
+    position: absolute;
+    background: white;
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .info-box h1{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    word-spacing: 4px;
+  }
+  .info-box p{
+
+    font-size: 18px;
+    line-height: 50px;
+    word-spacing: 2px;
+    margin-left: 20px;
+  }
+  .sociallink{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+    
+  }
+  .sociallink1{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .infobox1{
+    position: absolute;
+    background: white;
+    width: 600px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border-radius: 20px;
+  }
+  .infobox1 h1{
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 10px;
+    margin-top: 20px;
+    margin-left: 20px; 
+    font-weight: bolder;
+  }
+  .infobox1 h2{
+    font-size: 20px;
+    word-spacing: 5px;
+   
+   color: black;
+    margin-top: 10px;
+    margin-left: 20px; 
+  }
+  .infobox2 {
+    position: absolute;
+    background: white;
+    width: 600px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 600px;
+    border-radius: 20px;
+  }
+  .infobox2 h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  .namecontactdetials1,.emailcontactdetials1{
+    width: 500px;
+    background-color: white;
+    color:black;
+    margin-left: 15px;
+    height: 25px;
+    font-size: 20px;
+    border-top:0px ;
+    border-right:0px ;
+    border-left:0px ;
+    
+    
+   
+
+  }
+   .namecontactdetils, .emailcontactdetils{
+   
+   color:black;
+   font-size: 15px;
+   margin-left: -520px;
+   margin-bottom: 10px;
+ 
+  }
+  .submit1{
+    margin-left:20%;
+    font-size: 15px;
+    height: 30px;
+    width: 50%;
+    background:orange;
+    border-radius: 10px;
+  }
+  .messagecontactdetials{
+    color:black;
+   font-size: 15px;
+   margin-left: -490px;
+   margin-bottom: 10px;
+ 
+  }
+  .messagecontactdetials1{
+    width: 500px;
+    background-color: white;
+    color:black;
+    margin-left: 15px;
+    height: 50px;
+    font-size: 20px;
+   
+  }
+.bottomcontact {
+  position:absolute;
+    background-color: #cbac91;
+  
+    text-align: center;
+   width: 100%;
+    height: 100px ;
+    margin-top: 18px;
+  }
+  .bottomcontact h1{
+    font-size: 20px;
+margin-left: -1240px;
+margin-top: 10px;
+color: black;
+
+  }
+  
+  .bottomcontact h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 50px;
+  }
+  .bottomcontact h3{
+    font-size: 20px;
+    color: black;
+    margin-top: -70px;
+    margin-left: 1100px;
+  
+  }
+  .feb{
+    margin-top: -45px;
+    margin-left: 1100px;
+  }
+  .insta{
+    
+    margin-left: 1000px;
+
+  }
+ 
+ 

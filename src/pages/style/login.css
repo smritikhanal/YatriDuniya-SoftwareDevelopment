@@ -1,0 +1,131 @@
+.login1{
+    background:#cbac91;
+    color: white;
+    margin-left: 550px;
+    height: 500px;
+    margin-top: 70px;
+    width: 500px;
+    border-radius: 20px;
+    border:1px solid red;
+}
+  
+  /* Heading */
+  .login1 h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: #333;
+   
+  }
+  
+  /* Labels */
+  .login1 label {
+    display: block;
+
+  font-size: 25px;
+  padding-left: 10px;
+    text-align: left;
+    color: black;
+  }
+  
+  /* Input fields */
+  .login1 input[type="text"],
+  .login1 input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+    color: black;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+/* Checkbox and Forgot Password */
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .checkbox label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox input {
+    margin-right: 5px;
+  }
+  
+  .checkbox p {
+    color: black;
+    cursor: pointer;
+    
+    margin-right: 40px;
+  }
+  
+  .checkbox p:hover {
+    text-decoration: underline;
+  }
+  
+  /* Login Button */
+  .login1 button {
+    width: 90%;
+    padding: 10px;
+    background:rgb(225, 128, 23);
+    color: black;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login button:hover {
+    background: #0056b3;
+  }
+  
+  /* Signup Link */
+  .text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+  }
+  
+  .text a {
+    color: #007bff;
+    text-decoration: none;
+    
+  }
+  
+  .text a:hover {
+    text-decoration: underline;
+  }
+  .button1 {
+    color: white;  /* Set text color */
+    background: black;  /* Set background color */
+    border: none;  /* Remove default border */
+    cursor: pointer;  /* Change cursor to pointer */
+    padding: 5px 10px;  /* Adjust padding */
+    border-radius: 5px;  /* Rounded corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .password-container button{
+    background-color:white;
+    color:black;
+    width: 50px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 0px;
+    height: 40px;
+border: 1px solid white;
+   
+
+  }
+  

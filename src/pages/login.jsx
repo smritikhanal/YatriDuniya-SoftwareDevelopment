@@ -1,16 +1,18 @@
 import "./style/login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import { Eye, EyeOff } from "lucide-react"; // Import Eye Icons
+import { Eye, EyeOff } from "lucide-react";
+import axiosInstance from "../axiosConfig"; // Adjust path to axiosConfig
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [remember, setRemember] = useState(true);
   const [error, setError] = useState("");
-  const [showPassword, setShowPassword] = useState(false); // Track password visibility
+  const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
-  const handleLogin = () => {
+  const handleLogin = async () => {
     setError("");
     if (!email || !password) {
       setError("Please fill in both email and password.");
@@ -26,10 +28,15 @@ export default function Login() {
       return;
     }
 
-    alert("Login successful!");
-    console.log("Email:", email);
-    console.log("Password:", password);
-    console.log("Remember Me:", remember);
+    try {
+      const response = await axiosInstance.post("/auth/login", { email, password });
+      console.log("Login successful:", response.data);
+      alert("Login successful!");
+      navigate("/"); // Redirect to homepage after login
+    } catch (err) {
+      setError(err.response?.data?.message || "Login failed. Please try again.");
+      console.error("Login error:", err);
+    }
   };
 
   useEffect(() => {
@@ -74,7 +81,6 @@ export default function Login() {
           />
           <button 
             type="button"
-          
             onClick={() => setShowPassword(!showPassword)}
           >
             {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
@@ -95,7 +101,7 @@ export default function Login() {
           <p>Forget password?</p>
         </div>
 
-        <button  className="button" type="button" onClick={handleLogin}>Login</button>
+        <button className="button" type="button" onClick={handleLogin}>Login</button>
 
         <div className="text">
           <span>Don't have an account? </span>

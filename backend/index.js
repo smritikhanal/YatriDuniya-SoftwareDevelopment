@@ -5,6 +5,7 @@ const sequelize = require('./config/database');
 const authRoutes = require('./routes/authRoutes');
 const contactRoutes = require('./routes/contactRoutes');
 const recommendationRoutes = require('./routes/recommendationRoutes'); 
+const bookingRoutes = require('./routes/bookingRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -24,6 +25,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/contact', contactRoutes);
 app.use('/api/recommendation', recommendationRoutes);
+app.use('/api/booking', bookingRoutes);
 
 // Sync database and start server
 sequelize.sync().then(() => {

@@ -6,6 +6,8 @@ import { faClock, faPhone,faMountain, faGaugeHigh, faStar } from '@fortawesome/f
 import { Facebook } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
 import "../style/booking.css";
+import axiosConfig from '../../axiosConfig';
+
 
 
 export default function Booking() {
@@ -22,11 +24,23 @@ export default function Booking() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Form submitted successfully!");
+
+    try {
+      const response = await axiosConfig.post('/booking', {
+        ...formData,
+        trip: 'muktinath' // Passing trip name
+      });
+
+      alert(response.data.message);
+    } catch (error) {
+      alert("Error submitting the form");
+    }
   };
 
+
+  
   
 
   // Set body height to 250vh when the component mounts
